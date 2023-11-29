@@ -1,0 +1,60 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+/* Write your CSS here */
+.search-input {
+  background-color: #f1f5f9;
+  border-width: 0px;
+  height: 30px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-left: 10px;
+  outline: none;
+}
+.search-icon {
+  background-color: #f1f5f9;
+  height: 30px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.rating-img-paragraph-container {
+  display: flex;
+  align-items: center;
+}
+.each-rating-image {
+  width: 10vw;
+  height: 6vh;
+}
+.rating-list-item {
+  color: #475569;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+.category-list-item {
+  list-style-type: none;
+}
+.category-unorderList {
+  padding-left: 0px;
+}
+.all-clear-button {
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #0967d2;
+  color: #0967d2;
+  font-family: 'Roboto';
+  padding: 10px;
+  border-radius: 5px;
+}
